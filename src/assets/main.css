@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+body {
+  background: #f2f2f2;
+  color: #444;
+  margin: 0;
+}
+
+body * {
+  font-family: "Poppins";
+}
+
+/* header */
+header {
+  text-align: center;
+  background: #e7e7e7;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  max-width: 60px;
+  transform: rotate(-10deg);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  padding-top: 25px;
+  margin-left: 15px;
+  color: #777;
+  transform: rotate(2deg);
+}
+
+.task-list {
+  max-width: 100%;
+  margin: 0 260px;
+}
+
+.task {
+  /* width: 50%; */
+  padding: 6px 20px;
+  background: rgb(240, 236, 236);
+  margin: 10px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  /* border: 1px solid tomato; */
+}
+
+.icons i {
+  /* border: 1px solid rgb(27, 8, 5); */
+  padding: 10px;
+}
+
+.filter {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.filter button {
+  padding: 15px 46px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.countValue {
+  text-align: right;
+}
+
+.taskForm {
+  margin-top: 20px;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+.taskForm input {
+  padding: 10px 40px;
+}
+
+.activeFav {
+  color: red;
+  border: 1px solid red;
+  background-color: #F7C743;
+}
+
+/*
+ @import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
